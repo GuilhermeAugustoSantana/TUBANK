@@ -14,9 +14,17 @@ body{
 }
 
 .secao-topo{
+	position: fixed;
 	width: 100vw;
 	height: 60px;
-	
+	background-color: #fff;
+}
+
+.secao-conteudo{
+	width: 100vw;
+	position: absolute;
+	z-index: -1;
+	top: 100px
 }
 
 .conteudo-topo{
@@ -38,7 +46,7 @@ body{
 }
 
 .img-topo{
-	height: 90%;
+	height: 100%;
 }
 
 .img-lupa{
